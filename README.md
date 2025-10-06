@@ -20,7 +20,7 @@ To run this project, install the required dependencies:
 ```bash
 pip install torch==2.0.0 torchvision==0.15.0 numpy==1.24.0 matplotlib==3.7.0 opencv-python==4.7.0
 
-## Usage
+**Usage**
 Follow these steps to run the project:
 1. Clone the repository:
    ```bash
@@ -36,7 +36,7 @@ Follow these steps to run the project:
    Train the YOLO model with ResNet50 backbone.
    Evaluate performance and visualize results.
 
-##Results
+**Results**
 
 Mean Average Precision (mAP): 0.24 on VOC 2007 test set.
 Class-specific APs:
@@ -50,15 +50,15 @@ Cat: 0.36
 Example Detection:
 <img src="results.png" alt="Object Detection Results">
 
-##File Structure
+**File Structure**
 
 yolo_loss.py: Custom YOLO loss function implementation.
 yolo_training_voc2007.ipynb: Notebook for training and evaluating the YOLO model.
 requirements.txt: List of Python dependencies.
 
-##License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+**Contact**
 Connect with me on LinkedIn or view my portfolio at www.linkedin.com/in/dan-luo-3b49732b3.
 
